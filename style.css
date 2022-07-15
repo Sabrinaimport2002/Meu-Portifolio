@@ -1,0 +1,173 @@
+:root{
+  --cor-destaque: #c3005e;
+  --cor-de-fundo-principal: #cccccc;
+  --cor-secundaria: #1d232a;
+  --cor-terciaria: #bebebe;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: var(--cor-de-fundo-principal);
+}
+
+nav {
+  background: var(--cor-destaque);
+}
+
+nav ul {
+  display: flex;
+  padding: 15px 0;
+  justify-content: flex-end;
+  margin-right: 60px;
+}
+
+nav li {
+  margin: 5px 20px;
+  font-size: 18px;
+  color: var(--cor-terciaria);
+}
+
+nav img{
+  width: 35px;
+  height: 35px;
+  transition: 0.5s;
+}
+
+nav img:hover{
+  transform: scale(1.2);
+}
+
+.principal, .portifolio{
+  margin: 35px 55px 280px  55px;
+}
+
+.titulo-principal {
+  margin: 90px 0 0 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 55px;
+}
+
+.titulo-principal strong {
+  color: var(--cor-destaque);
+}
+
+.subtitulo-principal {
+  margin: 20px 0 0 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 56px;
+}
+
+.circulo {
+  margin: -20px 0 0 800px;
+  position: absolute;
+  box-sizing: border-box;
+  width: 325px;
+  height: 315px;
+  background-image: url('');
+  border: 20px solid #c3005e;
+  border-radius: 50%;
+}
+
+.texto-principal {
+  margin: 55px 0 0 0;
+  font-size: 18px;
+  color: var(--cor-secundaria);
+}
+
+.sobre{
+  position: relative;
+  background: var(--cor-destaque);
+  text-align: center;
+}
+
+.sobre-titulo, .portifolio-titulo{
+  padding: 30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 56px;
+}
+
+.sobre-texto{
+  font-size: 20px;
+  color: var(--cor-secundaria);
+}
+
+.mais{
+  margin: 10px;
+}
+
+.mais img{
+  padding: 10px;
+  width: 80px;
+  height: 80px;
+  transition: 0.5s;
+}
+
+.mais img:hover{
+  transform: scale(1.2);
+}
+
+.mais h3{
+  padding: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 56px;
+}
+
+.mais p{
+  font-size: 20px;
+  color: var(--cor-secundaria);
+  padding: 0 0 30px 0;
+}
+
+.portifolio-titulo{
+  position: relative;
+  text-align: center;
+}
+
+.portifolio-card{
+  display: flex;
+  justify-content: space-around;
+}
+
+.portifolio-card article{
+  border: 4px solid var(--cor-destaque);
+  border-radius: 10px;
+  padding: 10px;
+  background: var(--cor-terciaria);
+  transition: 0.5s;
+}
+
+.portifolio-card article:hover{
+  transform: scale(1.1);
+}
+
+.portifolio-card h4{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0 0 15px 0;
+}
+
+.portifolio-card a{
+  color: var(--cor-secundaria);
+  text-decoration: none;
+  transition: 0.6s;
+}
+
+.portifolio-card a:hover{
+  color: var(--cor-destaque);
+}
+
+.portifolio-card p{
+  font-size: 15px;
+  color: var(--cor-secundaria);
+  font-size: 20px;
+}
+
+
